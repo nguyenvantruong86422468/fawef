@@ -31,7 +31,7 @@ export default function MainLayout(props) {
       <Header />
       <div className={classes.top}></div>
       {props.children}
-      <Footer />
+      {/* <Footer /> */}
       <ScrollToTop showUnder={160}>
         <img
           // src="/img/logoTixLoading.png"

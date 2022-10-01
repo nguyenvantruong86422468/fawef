@@ -29,10 +29,10 @@ export default function Homepage() {
   return (
     <div>
       <Carousel />
-      <Showtime />
-      <Theaters />
-      <News />
-      <HomeApp />
+      {/* <Showtime /> */}
+      {/* <Theaters /> */}
+      {/* <News /> */}
+      {/* <HomeApp /> */}
     </div>
   );
 }

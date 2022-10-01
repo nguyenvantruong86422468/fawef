@@ -11,17 +11,8 @@ const discussData = [
     userLikeThisComment: [],
     createdAt: "2021-05-06T18:45:15.151Z"
   },
-  {
-    avtId: "69-hjrty34665",
-    username: "nguyên hùng",
-    point: 5,
-    post: "có phân đoạn khá hải hước, nhân vật chính đẹp trai. Nhịp phim nhiềi phân đoạn khá chậm nên có đoạn gây buồn ngủ. Nhưng cũng để lại những cảm xúc nhất định. Bộ phim có lẽ truyền tải thông điệp: Cái gì không tuân theo quy luật thì tồn tại không có ý nghĩa :)) Cũng khá đáng xem",
-    likes: 9,
-    maPhim: 0,
-    dataTest: true,
-    userLikeThisComment: [],
-    createdAt: "2021-05-05T18:45:15.151Z"
-  },
+  
+ 
   {
     avtId: "39-jghgfg55fdf",
     username: "iron man",

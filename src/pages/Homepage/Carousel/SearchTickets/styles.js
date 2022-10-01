@@ -2,23 +2,23 @@ import { makeStyles } from "@material-ui/core"
 import { customScrollbar } from '../../../../styles/materialUi';
 const useStyle = makeStyles({
   // search bar
-  search: {
-    display: props => props.down992px ? "none" : 'flex',
-    maxWidth: "940px",
-    margin: "auto",
-    height: "83px",
-    position: "absolute",
-    bottom: "0",
-    width: "100%",
-    left: "50%",
-    transform: "translate(-50%,50%)",
+  // search: {
+  //   display: props => props.down992px ? "none" : 'flex',
+  //   maxWidth: "940px",
+  //   margin: "auto",
+  //   height: "83px",
+  //   position: "absolute",
+  //   bottom: "0",
+  //   width: "100%",
+  //   left: "50%",
+  //   transform: "translate(-50%,50%)",
 
-    backgroundColor: "#fff",
-    borderRadius: "5px",
-    boxShadow: '0 0 10px rgb(0 0 0 / 30%)',
+  //   backgroundColor: "#fff",
+  //   borderRadius: "5px",
+  //   boxShadow: '0 0 10px rgb(0 0 0 / 30%)',
 
-    alignItems: "center",
-  },
+  //   alignItems: "center",
+  // },
   itemFirst: {
     padding: '1%',
     flex: "30%",

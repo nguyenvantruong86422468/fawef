@@ -22,21 +22,21 @@ import NavItem from './NavItem';
 import { FAKE_AVATAR } from '../../../constants/config';
 
 const items = [
-  {
-    href: '/admin/movies',
-    icon: MovieIcon,
-    title: 'Quản lý Phim'
-  },
+  // {
+  //   href: '/admin/movies',
+  //   icon: MovieIcon,
+  //   title: 'Quản lý Phim'
+  // },
   {
     href: '/admin/users',
     icon: PeopleAltIcon,
     title: 'Quản lý người dùng'
   },
-  {
-    href: '/admin/showtimes',
-    icon: PostAddIcon,
-    title: 'Tạo lịch chiếu'
-  },
+  // {
+  //   href: '/admin/showtimes',
+  //   icon: PostAddIcon,
+  //   title: 'Tạo lịch chiếu'
+  // },
 ];
 
 const useStyles = makeStyles(() => ({

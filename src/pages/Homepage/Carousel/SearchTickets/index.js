@@ -281,7 +281,7 @@ export default function SearchStickets() {
 
   return (
     <div className={classes.search} id="searchTickets">
-      <FormControl focused={false} className={classes.itemFirst}>
+      {/* <FormControl focused={false} className={classes.itemFirst}>
         <Autocomplete
           options={movieRender}
           getOptionLabel={(option) => option.tenPhim}
@@ -466,7 +466,7 @@ export default function SearchStickets() {
         >
           mua vé ngay
         </Button>
-      </FormControl>
+      </FormControl> */}
     </div>
   );
 }

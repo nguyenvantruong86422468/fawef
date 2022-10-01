@@ -215,7 +215,7 @@ export default function MoviesManagement() {
     const hinhAnhPhimSelected = movieList2.find(
       (item) => item.maPhim === e.target.value
     ).hinhAnh;
-    const isOpenHeThongRap = data.setHeThongRap ? false : true;
+    const isOpenHeThongRap = data.setHeThongRap ? false : true; 
     setData((data) => ({
       ...data,
       setPhim: e.target.value,
